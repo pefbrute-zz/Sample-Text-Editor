@@ -1,8 +1,13 @@
+.editor{
+  display: flex;
+  flex-direction: column;
+}
+
 .sample-toolbar {
   border: solid 1px #ddd;
   background: #f4f4f4;
   padding: 5px;
-  border-radius: 3px;
+  /* border-radius: 3px; */
 }
 
 .sample-toolbar > span {
@@ -11,4 +16,12 @@
 
 .sample-toolbar > span:hover{
   text-decoration: underline;
+}
+
+.work-area{
+  /* width: 100vw;
+  height: 100vh; */
+  width: 100%;
+  height: 100%;
+  overflow-wrap: break-word;
 }

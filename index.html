@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Text Editor</title>
-</head>
-<body>
-  <div class="editor" contenteditable="true">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" href="icon/icon.png">
+    <title>Sample Text Editor</title>
+  </head>
+  <body>
+    <div class="editor">
+      <div class="sample-toolbar">
+        <a href="javascript:void(0)" onclick="format('bold')"
+          ><i class="fas fa-bold"></i
+        ></a>
+        <a href="javascript:void(0)" onclick="format('italic')"
+          ><i class="fas fa-italic fa-fw"></i
+        ></a>
+        <a href="javascript:void(0)" onclick="format('insertunorderedlist')"
+          ><i class="fas fa-list fa-fw"></i
+        ></a>
+        <a href="javascript:void(0)" onclick="setUrl()"
+          ><i class="fas fa-link fa-fw"></i
+        ></a>
+        <span
+          ><input id="txtFormatUrl" placeholder="link" class="form-control"
+        /></span>
+      </div>
+  
+      <div class="work-area" contenteditable="true" id="sample-editor">
+        Type your text here
+      </div>
+    </div>
     
-  </div>
-</body>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>
