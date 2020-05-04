@@ -3,7 +3,7 @@ body {
 }
 
 .icon, .url{
-  margin: auto 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .icon:hover,
