@@ -1,15 +1,24 @@
+body{
+  /* background-color: rgba(15, 150, 200, 0.5); */
+  background-color: #f4f5f5;
+}
+
 .fa a:hover, a:focus, a:active, a:visited, a:link{
   text-decoration: none;
 }
 .editor{
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .sample-toolbar {
-  border: solid 1px #ddd;
-  background: #f4f4f4;
-  padding: 5px;
+  /* border: solid 1px #ddd; */
+  width: 16.4rem;
+  background: rgba(255, 255, 255, 1);
+  padding: 1rem 5.1rem 1rem 5.1rem;
+  /* margin: 1rem; */
 }
 
 .sample-toolbar > span {
@@ -21,7 +30,10 @@
 }
 
 .work-area{
-  width: 100%;
+  padding: 1rem 5.1rem 1rem 5.1rem;
+  overflow: auto;
+  width: 16.4rem;
   height: 100%;
+  background-color: white;
   overflow-wrap: break-word;
 }

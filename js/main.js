@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
   document
-    .getElementById("sample-editor")
+    .getElementById("work-area")
     .setAttribute("contenteditable", "true");
 });
 
