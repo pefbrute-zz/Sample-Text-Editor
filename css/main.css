@@ -1,3 +1,6 @@
+.fa a:hover, a:focus, a:active, a:visited, a:link{
+  text-decoration: none;
+}
 .editor{
   display: flex;
   flex-direction: column;
@@ -7,7 +10,6 @@
   border: solid 1px #ddd;
   background: #f4f4f4;
   padding: 5px;
-  /* border-radius: 3px; */
 }
 
 .sample-toolbar > span {
@@ -19,8 +21,6 @@
 }
 
 .work-area{
-  /* width: 100vw;
-  height: 100vh; */
   width: 100%;
   height: 100%;
   overflow-wrap: break-word;
